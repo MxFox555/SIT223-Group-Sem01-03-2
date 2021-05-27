@@ -1,0 +1,221 @@
+html, body {
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	margin: 0;
+	height: 100%;
+}
+
+label {
+	font-size: 20px;
+	color: #333;
+	font-style: normal;
+      font-family: Poppins, Arial;
+}
+
+input {
+	outline: none;
+	border: none;
+  border: 2px solid black;
+	padding-left: 10px;
+	margin-top: 5.00px;
+      margin-right: 0.00px;
+      margin-bottom: 17.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(247, 249, 252, 1);
+      border-bottom-color: rgba(168, 196, 229, 1);
+      border-bottom-style: solid;
+      border-bottom-width: 1.00px;
+      border-left-color: rgba(168, 196, 229, 1);
+      border-left-style: solid;
+      border-left-width: 1.00px;
+      border-right-color: rgba(168, 196, 229, 1);
+      border-right-style: solid;
+      border-right-width: 1.00px;
+      border-top-color: rgba(168, 196, 229, 1);
+      border-top-style: solid;
+      border-top-width: 1.00px;
+      border-top-left-radius: 3.00px;
+      border-top-right-radius: 3.00px;
+      border-bottom-left-radius: 3.00px;
+      border-bottom-right-radius: 3.00px;
+}
+
+a {
+	color: #006FFF;
+}
+
+.logo {
+	max-width: 400px;
+	max-height: 140px;
+}
+
+.left-side {
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	width: 450px;
+	height: 100%;
+	background-color: white;
+	min-height: 850px;
+}
+
+.left-side-margin-1 {
+	margin-left: 50px;
+	margin-top: 50px;
+}
+
+.left-side-margin-1-1 {
+	margin-top: 200px;
+	height: 80%;
+}
+
+.left-side-margin-1-1-centerer {
+	position: absolute;
+	 height: 200px;
+	 width: 350px;
+	 margin: -100px 0 0  0px;
+	 top: 50%;
+}
+
+.left-side-margin-1-1-centerer-2 {
+	position: absolute;
+	 height: 500px;
+	 width: 350px;
+	 margin: -100px 0 0  0px;
+	 bottom: calc(50% - 250px);
+}
+
+.right-side {
+	position: relative;
+	float: left;
+	width: calc(100% - 450px);
+	height: 100%;
+	background-color: #efefef;
+	min-height: 850px;
+}
+
+.right-side-margin-1 {
+	width: 100%;
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.display-button {
+	background-color: #006FFF;
+	position: absolute;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	text-align: center;
+	padding: 10px 50px;
+	width: 350px;
+	font-size: 25px;
+	border: 1px solid black;
+	bottom: 7%;
+	border-top-left-radius: 3.00px;
+	border-top-right-radius: 3.00px;
+	border-bottom-left-radius: 3.00px;
+	border-bottom-right-radius: 3.00px;
+	font-style: normal;
+      font-family: Poppins, Arial;
+}
+
+.rectangle14 {
+    position: absolute;
+      box-sizing: border-box;
+      -ms-transform: rotate(28.00deg);
+    -webkit-transform: rotate(28.00deg);
+    transform: rotate(28.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("assets/rectangle14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      border-bottom-color: rgba(112, 112, 112, 1);
+      border-bottom-style: solid;
+      border-bottom-width: 1.00px;
+      border-left-color: rgba(112, 112, 112, 1);
+      border-left-style: solid;
+      border-left-width: 1.00px;
+      border-right-color: rgba(112, 112, 112, 1);
+      border-right-style: solid;
+      border-right-width: 1.00px;
+      border-top-color: rgba(112, 112, 112, 1);
+      border-top-style: solid;
+      border-top-width: 1.00px;
+      border-top-left-radius: 8.00px;
+      border-top-right-radius: 8.00px;
+      border-bottom-left-radius: 8.00px;
+      border-bottom-right-radius: 8.00px;
+      box-shadow: none;
+      width: 400px;
+    height: 400px;
+    left: -300px;
+    top: 41.37px;
+}
+
+.rectangle15 {
+    position: absolute;
+      box-sizing: border-box;
+      -ms-transform: rotate(28.00deg);
+    -webkit-transform: rotate(28.00deg);
+    transform: rotate(28.00deg);
+    -ms-transform-origin: center;
+    -webkit-transform-origin: center;
+    transform-origin: center;
+      background-image: url("assets/rectangle15.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+      opacity: 1;
+      cursor: default;
+      margin-top: 0.00px;
+      margin-right: 0.00px;
+      margin-bottom: 0.00px;
+      margin-left: 0.00px;
+      padding-top: 0.00px;
+      padding-right: 0.00px;
+      padding-bottom: 0.00px;
+      padding-left: 0.00px;
+      background-color: rgba(255, 255, 255, 0);
+      border-bottom-color: rgba(112, 112, 112, 1);
+      border-bottom-style: solid;
+      border-bottom-width: 1.00px;
+      border-left-color: rgba(112, 112, 112, 1);
+      border-left-style: solid;
+      border-left-width: 1.00px;
+      border-right-color: rgba(112, 112, 112, 1);
+      border-right-style: solid;
+      border-right-width: 1.00px;
+      border-top-color: rgba(112, 112, 112, 1);
+      border-top-style: solid;
+      border-top-width: 1.00px;
+      border-top-left-radius: 8.00px;
+      border-top-right-radius: 8.00px;
+      border-bottom-left-radius: 8.00px;
+      border-bottom-right-radius: 8.00px;
+      box-shadow: none;
+      width: 500px;
+    height: 500px;
+    left: 85%;
+    top: 400px;
+}
