@@ -74,7 +74,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Netwerkus</title>
+		<title>Timey</title>
 		<link rel="stylesheet" type="text/css" href="CSS/Login.css">
 	</head>
 	<body>
